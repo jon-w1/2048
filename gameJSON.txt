@@ -1,0 +1,10 @@
+{
+    "board1": {
+        "board": 0,
+        "state": "empty"
+    },
+    "board2": {
+        "board": 0,
+        "state": "empty"
+    }
+}

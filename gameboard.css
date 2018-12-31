@@ -1,0 +1,114 @@
+#gameboard {
+	background-color: #B4B4B4;
+	padding: 7px;
+	border-radius: 5px;
+	display:inline-block;
+}
+
+[data-column] {
+	height: 50px;
+	width: 50px;
+	margin: 2px;
+	background-color: grey;
+	border-radius: 3px;
+	display:inline-block;
+}
+
+[data-column][value]:before {
+	content: '1';
+	position: absolute;
+	font-size: 3em;
+	font-family: cursive;
+	margin-left: 12px;
+	margin-top: -10px;
+}
+
+[data-column][value="2"] {
+	background-color: #E7E7D7;
+}[data-column][value="2"]:before { content: '2';}
+
+[data-column][value="4"] {
+	background-color: #EEEEC1;
+}[data-column][value="4"]:before { content: '4';}
+
+[data-column][value="8"] {
+	background-color: #E9BD70;
+	color:white;
+}[data-column][value="8"]:before { content: '8';}
+
+
+[data-column][value="16"] {
+	background-color: #E49845;
+	color:white;
+}[data-column][value="16"]:before { content: '16';margin-top: -4px;
+margin-left: 3px;
+font-size: 2.5em;}
+
+[data-column][value="32"] {
+	background-color: #DB753C;
+	color:white;
+}[data-column][value="32"]:before { content: '32';margin-top: -4px;
+margin-left: 3px;
+font-size: 2.5em;}
+
+
+[data-column][value="64"] {
+	background-color: #C44818;
+	color:white;
+}[data-column][value="64"]:before { content: '64';margin-top: -4px;
+margin-left: 3px;
+font-size: 2.5em;}
+
+
+[data-column][value="128"] {
+	background-color: #ECE051;
+	color:white;
+}[data-column][value="128"]:before { content: '128';font-size: 1.6em;
+margin-top: 6px;
+margin-left: 3px;}
+
+
+[data-column][value="256"] {
+	background-color: #F8E870;
+	color:white;
+}[data-column][value="256"]:before { content: '256';font-size: 1.6em;
+margin-top: 6px;
+margin-left: 3px;}
+
+
+[data-column][value="512"] {
+	background-color: #E7E7D7;
+}[data-column][value="512"]:before { content: '512';font-size: 1.6em;
+margin-top: 6px;
+margin-left: 3px;}
+
+
+[data-column][value="1024"] {
+	background-color: #E7E7D7;
+}[data-column][value="1024"]:before { content: '1024';margin-left: 2px;
+margin-top: 11px;
+font-size: 1.2em;}
+
+
+[data-column][value="2048"] {
+	background-color: #E7E7D7;
+}[data-column][value="2048"]:before { content: '2048';margin-left: 2px;
+margin-top: 11px;
+font-size: 1.2em;}
+
+
+[data-column][value="4096"] {
+	background-color: #E7E7D7;
+}[data-column][value="4096"]:before { content: '4096';margin-left: 2px;
+margin-top: 11px;
+font-size: 1.2em;}
+
+
+#gamepad {
+	display:inline-block;
+}
+
+#opponent {
+	display: inline-block;
+	opacity: .4;
+}
